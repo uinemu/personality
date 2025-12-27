@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ui Nemu</title>
+  <style>
+    :root{
+      --bg:#f6f1ea;
+      --card:#fffaf5;
+      --cute:#f3c6d3;
+      --cute-2:#f7dfe7;
+      --serious:#3a2f2f;
+      --text:#4a3f3f;
+      --warn:#c97a7a;
+      --line:#e6d8cf;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg),#ffffff);
+      color:var(--text);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto;
+    }
+    header{
+      text-align:center;
+      padding:60px 20px 30px;
+    }
+    header h1{
+      margin:0;
+      font-size:44px;
+      color:var(--serious);
+    }
+    header p{
+      max-width:720px;
+      margin:14px auto 0;
+      color:#6b5f5f;
+    }
+    .cute-text{
+      font-family:inherit;
+    }
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      padding:20px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:18px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:20px;
+    }
+    .card h2{
+      margin:0 0 10px;
+      font-size:22px;
+      color:var(--serious);
+    }
+    .serious{
+      font-family:"Times New Roman", Times, serif;
+      color:var(--serious);
+    }
+    ul{padding-left:20px}
+    li{margin:6px 0}
+    .cute{
+      background:var(--cute-2);
+      border-radius:999px;
+      padding:6px 12px;
+      display:inline-block;
+      margin:4px 4px 0 0;
+    }
+    .warn{
+      border-left:4px solid var(--warn);
+      padding-left:12px;
+    }
+    .divider{
+      height:1px;
+      background:var(--line);
+      margin:20px 0;
+    }
+    footer{
+      text-align:center;
+      color:#8a7c7c;
+      padding:30px 20px 40px;
+      font-size:14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="serious">Ui Nemu</h1>
+    <p class="cute-text">someone with chronic pain that wants to stay online</p>
+    <div>
+      <span class="cute">🌸 soft-cute</span>
+      <span class="cute">🎮 gaming</span>
+      <span class="cute">💤 resting</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+      <article class="card">
+        <h2>Before You Stay</h2>
+        <p class="serious warn">This page exists so my view of you stays intact. My personality mirrors the person I am with. If you act kindly, I will respond kindly. If you act carelessly, the damage is permanent.</p>
+      </article>
+
+      <article class="card">
+        <h2>What I Like 🌷</h2>
+        <ul>
+          <li>Direct but cutesy communication</li>
+          <li>Soft kindness and casual tone</li>
+          <li>Quick responses</li>
+          <li>Similar interests and actual knowledge</li>
+          <li>Gaming and streaming together</li>
+        </ul>
+        <div class="cute">effort matters</div>
+        <div class="cute">distance is fine</div>
+      </article>
+
+      <article class="card">
+        <h2>What I Don’t Like</h2>
+        <ul>
+          <li>Too talkative, too negative, or hateful people</li>
+          <li>Degrading or self-degrading behavior</li>
+          <li>Excessive cussing or racial slurs</li>
+          <li>Being ignored (I don’t speak vocally)</li>
+          <li>Passive-aggressive behavior</li>
+        </ul>
+        <p class="cute">If I’m rude, stop me immediately. I won’t notice.</p>
+      </article>
+
+      <article class="card">
+        <h2>What I Despise</h2>
+        <ul class="serious">
+          <li>Bullying people who are less fortunate</li>
+          <li>Prying into my real-life information</li>
+          <li>Doxxing (any form)</li>
+          <li>Passive ignorance</li>
+          <li>Causing serious harm through carelessness</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Permanent Deal-Breakers</h2>
+        <p class="serious">I am extremely forgiving unless I say otherwise.</p>
+        <ul class="serious">
+          <li>Doxxing</li>
+          <li>Bullying</li>
+          <li>Ignoring me repeatedly</li>
+          <li>Lying</li>
+        </ul>
+        <p class="warn serious">Once crossed, I go cold. Blocked. Harsh.</p>
+      </article>
+
+      <article class="card">
+        <h2>Boundaries</h2>
+        <ul>
+          <li>Be patient, kind, and casual</li>
+          <li>Do not share details about your love life</li>
+          <li>Never talk about pregnancy or age gaps</li>
+          <li>You may contact me anytime</li>
+        </ul>
+        <p class="cute">Respect line 52.</p>
+      </article>
+
+      <article class="card">
+        <h2>Trust & Time</h2>
+        <ul>
+          <li>I invest in people who invest time in me</li>
+          <li>Trust is built through consistency</li>
+          <li>Doubt breaks things faster than mistakes</li>
+          <li>Loyalty means choosing my side</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Conflict</h2>
+        <ul class="serious">
+          <li>I end conflicts quickly</li>
+          <li>I value sincere, grammatically correct apologies</li>
+          <li>Some mistakes are human</li>
+          <li>Some are moral failures</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Final Note</h2>
+        <p class="serious">Be kind. Match my current attitude. Read carefully.</p>
+        <p class="serious">This page is a door. Respect is invited.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Ui Nemu · she/her
+  </footer>
+</body>
+</html>
